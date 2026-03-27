@@ -1,13 +1,12 @@
-# traffic_system.py
 
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 import matplotlib.pyplot as plt
 
-# -----------------------------
+
 # 1. Generate Synthetic Traffic Data
-# -----------------------------
+
 np.random.seed(42)
 
 n_samples = 200
@@ -28,34 +27,33 @@ data["congestion"] = (
 
 data["congestion"] = data["congestion"].clip(0, 100)
 
-# -----------------------------
+
 # 2. Train ML Model
-# -----------------------------
+
 X = data[["hour", "day", "vehicles", "temperature"]]
 y = data["congestion"]
 
 model = RandomForestRegressor()
 model.fit(X, y)
 
-# -----------------------------
 # 3. Predict Traffic
-# -----------------------------
+
 def predict_traffic(hour, day, vehicles, temperature):
     input_data = pd.DataFrame([[hour, day, vehicles, temperature]],
                               columns=["hour", "day", "vehicles", "temperature"])
     return model.predict(input_data)[0]
 
-# -----------------------------
+
 # 4. Pollution Estimation
-# -----------------------------
+
 def estimate_pollution(congestion):
     # simple formula
     co2 = congestion * 0.5   # kg/h
     return co2
 
-# -----------------------------
+
 # 5. Signal Optimization Logic
-# -----------------------------
+
 def optimize_signal(congestion):
     if congestion > 70:
         return "Increase Green Time (60s)"
@@ -64,9 +62,9 @@ def optimize_signal(congestion):
     else:
         return "Reduce Green Time (20s)"
 
-# -----------------------------
+
 # 6. Run Simulation
-# -----------------------------
+
 print("\n🚦 Smart Traffic Pollution Reducer\n")
 
 hour = int(input("Enter hour (0-23): "))
@@ -82,9 +80,9 @@ print(f"\n📊 Predicted Congestion: {predicted_congestion:.2f}%")
 print(f"🌫 Estimated CO₂ Emission: {pollution:.2f} kg/h")
 print(f"🚦 Signal Recommendation: {signal}")
 
-# -----------------------------
+
 # 7. Visualization
-# -----------------------------
+
 plt.bar(["Congestion", "CO2"], [predicted_congestion, pollution])
 plt.title("Traffic vs Pollution")
 plt.show()
