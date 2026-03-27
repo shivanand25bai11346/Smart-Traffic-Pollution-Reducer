@@ -21,8 +21,6 @@ This project develops an intelligent system that:
 - Recommends improved timing for traffic signals  
 - Detects areas with high pollution risk  
 
----  
-
 >Technologies Used  
 - Python  
 - Machine Learning (Scikit-learn)  
