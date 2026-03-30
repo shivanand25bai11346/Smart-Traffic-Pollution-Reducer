@@ -86,7 +86,7 @@ Predicted Congestion: 71.86%
 Estimated CO₂ Emission: 35.93 kg/h
 Signal Recommendation: Increase Green Time (60s)
 ```
-<img width="1220" height="341" alt="image" src="https://github.com/user-attachments/assets/cf0f5838-9845-448d-b83a-9bceefcfdad5" />
+<img width="1209" height="262" alt="image" src="https://github.com/user-attachments/assets/cc668a42-612e-4a10-a83d-4759867435b3" />
 
 
 ## 📊 Visualization
