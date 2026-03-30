@@ -85,10 +85,8 @@ Enter temperature: 30
 Predicted Congestion: 71.86%
 Estimated CO₂ Emission: 35.93 kg/h
 Signal Recommendation: Increase Green Time (60s)
-
-<img width="1220" height="341" alt="image" src="https://github.com/user-attachments/assets/cf0f5838-9845-448d-b83a-9bceefcfdad5" />
-
 ```
+<img width="1220" height="341" alt="image" src="https://github.com/user-attachments/assets/cf0f5838-9845-448d-b83a-9bceefcfdad5" />
 
 
 ## 📊 Visualization
