@@ -129,7 +129,32 @@ Pollution is calculated based on congestion levels.
 
 Traffic signal timing is adjusted based on predicted congestion.
 
+### SYSTEM FLOW DIAGRAM
 
+Start
+  ↓
+Input Traffic Data
+(hour, day, vehicles, temperature)
+  ↓
+Generate / Load Dataset
+  ↓
+Train Machine Learning Model
+(Random Forest)
+  ↓
+Take User Input
+  ↓
+Predict Traffic Congestion
+  ↓
+Estimate Pollution Level
+  ↓
+Apply Signal Optimization Logic
+  ↓
+Display Output
+(congestion, CO₂, signal timing)
+  ↓
+Show Graph Visualization
+  ↓
+End
 
 ## 🌍 Real-World Impact
 
