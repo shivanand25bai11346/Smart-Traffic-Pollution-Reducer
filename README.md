@@ -31,7 +31,6 @@ This project uses Machine Learning to:
 * Scikit-learn (Random Forest)
 * Matplotlib
 
----
 
 ## 📁 Project Structure
 
@@ -62,7 +61,6 @@ cd Smart-Traffic-Pollution-Reducer
 python -m pip install -r requirements.txt
 ```
 
----
 
 ## ▶️ How to Run
 
@@ -70,7 +68,6 @@ python -m pip install -r requirements.txt
 python src/traffic_system.py
 ```
 
----
 
 ## 📊 Example Input
 
@@ -81,7 +78,6 @@ Enter number of vehicles: 300
 Enter temperature: 30
 ```
 
----
 
 ## 📈 Output
 
@@ -91,7 +87,6 @@ Estimated CO₂ Emission: 35.93 kg/h
 Signal Recommendation: Increase Green Time (60s)
 ```
 
----
 
 ## 📊 Visualization
 
@@ -102,7 +97,6 @@ The program generates a bar graph comparing:
 
 This helps visualize the relationship between congestion and pollution.
 
----
 
 ## 🧠 How It Works
 
@@ -131,7 +125,7 @@ Pollution is calculated based on congestion levels.
 
 Traffic signal timing is adjusted based on predicted congestion.
 
----
+
 
 ## 🌍 Real-World Impact
 
@@ -142,7 +136,7 @@ This system can help:
 * Improve fuel efficiency
 * Support smart city initiatives
 
----
+
 
 ## 🚀 Future Improvements
 
@@ -151,14 +145,14 @@ This system can help:
 * Improve model accuracy
 * Develop a live dashboard
 
----
+
 
 ## 🧑‍💻 Author
 
-Your Name
+Shivanand Irappa Sangammanavar 
 
----
 
 ## 📜 License
 
-MIT License
+MIT License © 2026 Shivanand Irappa Sangammanavar  
+Free to use, modify, and distribute with proper credit.
