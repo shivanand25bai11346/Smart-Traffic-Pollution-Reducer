@@ -129,7 +129,7 @@ Pollution is calculated based on congestion levels.
 
 Traffic signal timing is adjusted based on predicted congestion.
 
-### System Flow Diagram
+## System Flow Diagram
 
 <img width="751" height="579" alt="image" src="https://github.com/user-attachments/assets/de5fe53c-4db0-46b0-af71-c43ab4632783" />
 
