@@ -85,6 +85,9 @@ Enter temperature: 30
 Predicted Congestion: 71.86%
 Estimated CO₂ Emission: 35.93 kg/h
 Signal Recommendation: Increase Green Time (60s)
+
+<img width="1220" height="341" alt="image" src="https://github.com/user-attachments/assets/cf0f5838-9845-448d-b83a-9bceefcfdad5" />
+
 ```
 
 
@@ -94,6 +97,9 @@ The program generates a bar graph comparing:
 
 * Traffic congestion level
 * CO₂ emission level
+  
+<img width="794" height="604" alt="image" src="https://github.com/user-attachments/assets/65b105cb-44cf-4c57-80f8-3d2f7e9d1450" />
+
 
 This helps visualize the relationship between congestion and pollution.
 
