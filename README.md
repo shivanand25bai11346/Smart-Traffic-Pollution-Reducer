@@ -159,7 +159,7 @@ This system can help:
 Shivanand Irappa Sangammanavar 
 
 
-## 📜 License
+## License
 
 MIT License © 2026 Shivanand Irappa Sangammanavar  
 Free to use, modify, and distribute with proper credit.
