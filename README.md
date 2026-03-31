@@ -1,10 +1,10 @@
-# 🚦 Smart Traffic Pollution Reducer
+#  Smart Traffic Pollution Reducer
 
-## 📌 Overview
+## Overview
 
 Smart Traffic Pollution Reducer is a Machine Learning-based project designed to predict traffic congestion and estimate pollution levels. Based on these predictions, the system suggests optimized traffic signal timings to reduce vehicle idle time and emissions.
 
-## ❗ Problem Statement
+## Problem Statement
 
 Urban traffic congestion leads to:
 
@@ -15,7 +15,7 @@ Urban traffic congestion leads to:
 Traditional traffic systems are static and do not adapt to real-time conditions, leading to inefficiency and environmental impact.
 
 
-## 💡 Solution
+## Solution
 
 This project uses Machine Learning to:
 
@@ -23,7 +23,7 @@ This project uses Machine Learning to:
 * Estimate pollution levels based on congestion
 * Suggest optimized traffic signal timings
 
-## 🧠 Technologies Used
+## Technologies Used
 
 * Python
 * Pandas
@@ -32,7 +32,7 @@ This project uses Machine Learning to:
 * Matplotlib
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Smart-Traffic-Pollution-Reducer/
@@ -62,14 +62,14 @@ python -m pip install -r requirements.txt
 ```
 
 
-## ▶️ How to Run
+## How to Run
 
 ```
 python src/traffic_system.py
 ```
 
 
-## 📊 Example Input
+## Example Input
 
 ```
 Enter hour (0-23): 9
@@ -79,7 +79,7 @@ Enter temperature: 30
 ```
 
 
-## 📈 Output
+## Output
 
 ```
 Predicted Congestion: 71.86%
@@ -89,7 +89,7 @@ Signal Recommendation: Increase Green Time (60s)
 <img width="1209" height="262" alt="image" src="https://github.com/user-attachments/assets/cc668a42-612e-4a10-a83d-4759867435b3" />
 
 
-## 📊 Visualization
+## Visualization
 
 The program generates a bar graph comparing:
 
@@ -102,7 +102,7 @@ The program generates a bar graph comparing:
 This helps visualize the relationship between congestion and pollution.
 
 
-## 🧠 How It Works
+## How It Works
 
 ### 1. Data Generation
 
@@ -134,7 +134,7 @@ Traffic signal timing is adjusted based on predicted congestion.
 <img width="751" height="579" alt="image" src="https://github.com/user-attachments/assets/de5fe53c-4db0-46b0-af71-c43ab4632783" />
 
 
-## 🌍 Real-World Impact
+## Real-World Impact
 
 This system can help:
 
@@ -145,7 +145,7 @@ This system can help:
 
 
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Use real-world traffic datasets
 * Integrate real-time data sources
@@ -154,7 +154,7 @@ This system can help:
 
 
 
-## 🧑‍💻 Author
+## Author
 
 Shivanand Irappa Sangammanavar 
 
